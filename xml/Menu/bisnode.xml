@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/bisnode</path>
+    <page_callback>CRM_Bisnode_Page_Bisnode</page_callback>
+    <title>Bisnode</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/bisnode/import</path>
+    <page_callback>CRM_Bisnode_Page_FileImport</page_callback>
+    <title>FileImport</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
